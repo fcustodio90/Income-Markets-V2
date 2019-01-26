@@ -1,0 +1,81 @@
+// changing bootstrap mediaqueries
+
+/* Large Devices, Wide Screens */
+@media (min-width : 1200px) {
+
+}
+
+
+/* Medium Devices, Desktops */
+@media (min-width : 992px) {
+
+
+}
+
+/* Small Devices, Tablets */
+@media (min-width : 768px) and (max-width: 991px) {
+
+    .navbar-toggler-icon {
+        border: 1px solid #eee;
+        line-height: 27px;
+    }
+    .main-navigation {
+        padding: 40px 20px 15px 20px;
+    }
+
+    .extra-nav{
+        display: none;
+    }
+
+}
+
+/* Small Devices Potrait */
+@media (max-width : 767px){
+
+    .navbar-toggler-icon {
+        border: 1px solid #eee;
+        line-height: 27px;
+    }
+    .main-navigation {
+        padding: 40px 20px 15px 20px;
+    }
+
+  .extra-nav{
+        display: none;
+    }
+
+}
+
+/* Extra Small Devices, Phones */
+@media (min-width : 480px) and (max-width:767px){
+
+    .navbar-toggler-icon {
+        border: 1px solid #eee;
+        line-height: 27px;
+    }
+    .main-navigation {
+        padding: 40px 20px 15px 20px;
+    }
+
+   .extra-nav{
+        display: none;
+    }
+
+}
+
+/* Custom, iPhone Retina */
+@media (min-width : 320px) and (max-width: 478px)  {
+
+    .navbar-toggler-icon {
+        border: 1px solid #eee;
+        line-height: 27px;
+    }
+    .main-navigation {
+        padding: 40px 20px 15px 20px;
+    }
+
+    .extra-nav{
+        display: none;
+    }
+
+}
