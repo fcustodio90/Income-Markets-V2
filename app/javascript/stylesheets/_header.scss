@@ -1,0 +1,53 @@
+/*-------------------------------
+header
+-------------------------------*/
+.navbar-brand {
+  margin-right: none;
+  font-size: 28px;
+  font-weight: 700;
+  color: #283a5e; }
+
+.main-navigation {
+  padding: 20px 0px;
+  border-bottom: 1px solid #e8e8e8;
+  transition: all .7s linear; }
+  .main-navigation .nav-link {
+    font-size: 16px;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    text-transform: capitalize;
+    font-weight: 700;
+    letter-spacing: 0.5px; }
+  .main-navigation .btn {
+    background: transparent;
+    color: #2c2c2c;
+    border-color: #ee2d50; }
+
+.extra-nav {
+  margin-left: 10px;
+  margin-right: 20px;
+  border-left: 1px solid #e8e8e8;
+  border-right: 1px solid #e8e8e8;
+  padding-left: 20px;
+  padding-right: 20px; }
+  .extra-nav li a {
+    padding: 20px 10px;
+    font-size: 16px; }
+
+.btn-sm {
+  padding: 5px 18px;
+  border-radius: 50px; }
+
+.extra-nav li a i.fa-facebook-square {
+  color: #283A5E; }
+
+.extra-nav li a i.fa-linkedin {
+  color: #EE2D50; }
+
+.extra-nav li a i.fa-instagram {
+  color: #283A5E; }
+
+.extra-nav li a i.fa-youtube {
+  color: #EE2D50; }
+
+

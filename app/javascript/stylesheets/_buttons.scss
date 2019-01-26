@@ -1,0 +1,22 @@
+/*-------------------------------
+buttons
+-------------------------------*/
+.btn {
+  line-height: 2rem;
+  border: 2px solid #e8e8e8;
+  padding: 5px 35px;
+  border-radius: 50px;
+  text-transform: capitalize;
+  transition: all .7s ease; }
+
+.btn-outline {
+  background: #ee2d50 !important;
+  color: #ffffff !important;
+  border-color: #ee2d50 !important;
+  &:hover {
+    background: #2c2c2c !important;
+    border-color: #2c2c2c !important;
+    color: #ffffff !important;
+  }
+}
+

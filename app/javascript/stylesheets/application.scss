@@ -1,3 +1,14 @@
+// import bootstrap
 @import '~bootstrap/scss/bootstrap';
+
+// file with bootstrap overwritten
 @import 'variables';
-@import 'base';
+
+// file with header style
+@import 'header';
+
+// file with everything related with fonts, colours etc
+@import 'typography';
+
+// file with button styles
+@import 'buttons'
