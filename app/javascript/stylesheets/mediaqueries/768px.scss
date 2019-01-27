@@ -1,0 +1,28 @@
+/* Small Devices, Tablets */
+@media (min-width : 768px) and (max-width: 991px) {
+  .navbar-toggler-icon {
+    border: 1px solid #eee;
+    line-height: 27px;
+  }
+
+  .main-navigation {
+    padding: 40px 20px 15px 20px;
+  }
+
+  .extra-nav{
+    display: none;
+  }
+
+  .banner-padding {
+    padding: 200px 0px 100px 0px;
+  }
+
+  #intro{
+      margin-top: 40px;
+  }
+
+  .intro-block{
+      border: 0px;
+      margin-bottom: 55px;
+  }
+}

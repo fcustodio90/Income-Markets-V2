@@ -1,0 +1,37 @@
+/* Custom, iPhone Retina */
+@media (min-width : 320px) and (max-width: 478px)  {
+
+  .navbar-toggler-icon {
+      border: 1px solid #eee;
+      line-height: 27px;
+  }
+  .main-navigation {
+      padding: 40px 20px 15px 20px;
+  }
+
+  .banner-padding {
+      padding: 200px 0px 100px 0px;
+  }
+
+  .extra-nav{
+      display: none;
+  }
+
+  h1,.h1{
+    font-size: 36px;
+  }
+
+  .main-banner-content h1 {
+      font-size: 38px;
+  }
+
+  .main-banner-content p {
+      font-size: 18px;
+      padding: 0px 20px;
+  }
+
+  .btn-container a{
+      margin-bottom: 15px;
+  }
+
+}

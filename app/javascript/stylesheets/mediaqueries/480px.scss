@@ -1,0 +1,16 @@
+/* Extra Small Devices, Phones */
+@media (min-width : 480px) and (max-width:767px){
+
+  .navbar-toggler-icon {
+    border: 1px solid #eee;
+    line-height: 27px;
+  }
+
+  .main-navigation {
+    padding: 40px 20px 15px 20px;
+  }
+
+  .extra-nav{
+    display: none;
+  }
+}
