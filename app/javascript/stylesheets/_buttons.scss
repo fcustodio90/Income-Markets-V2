@@ -1,23 +1,22 @@
 /*-------------------------------
 buttons
 -------------------------------*/
+.main-navigation .btn {
+  line-height: 2rem;
+    border: 2px solid $border-color;
+    padding: 5px 35px;
+    border-radius: 50px;
+    text-transform: capitalize;
+    transition: all .7s ease;
+}
+
 .btn {
   line-height: 2rem;
-  border: 2px solid $border-color;
-  padding: 5px 35px;
-  border-radius: 50px;
-  text-transform: capitalize;
-  transition: all .7s ease; }
-
-.btn-outline {
-  background: $primary-color;
-  color: $white;
-  border-color: $primary-color;
-  &:hover {
-    background: $black;
-    border-color: $black;
-    color: $white;
-  }
+    border: 2px solid $border-color;
+    padding: 10px 35px;
+    border-radius: 50px;
+    text-transform: capitalize;
+    transition: all .7s ease;
 }
 
 .btn-hero{
@@ -32,19 +31,9 @@ buttons
 }
 
 .btn-outline-hero{
-    &:hover{
-        border-color: $primary-color;
-        color: $primary-color;
-    }
-}
-
-.btn-hero-trans {
-  background: transparent;
-  color: $black;
-    border-color:$primary-color;
   &:hover{
-     background: $primary-color;
-      border-color: $primary-color;
-      color: $white;
+    border-color: $primary-color;
+    color: $primary-color;
   }
 }
+
