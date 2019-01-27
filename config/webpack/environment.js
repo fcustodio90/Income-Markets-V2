@@ -18,22 +18,21 @@ environment.plugins.prepend(
   })
 )
 
-environment.loaders.append('expose', {
-  test: require.resolve('jquery'),
-  use: [{
-    loader: 'expose-loader',
-    options: '$'
-  }]
-})
-
 module: {
-  rules: [{
-    test: require.resolve('jquery'),
-    use: [{
-      loader: 'expose-loader',
-      options: '$'
-    }]
-  }]
-}
+  rules: [
+   {
+      test: require.resolve('jquery'),
+      use: [{
+        loader: 'expose-loader',
+        options: '$',
+      }, {
+        loader: 'expose-loader',
+        options: 'jQuery',
+      }],
+    },
+
+    // ... other custom loader rules
+  ],
+},
 
 module.exports = environment
