@@ -18,6 +18,10 @@
 @import 'buttons';
 
 // file with main banner style
-@import 'banner'
+@import 'banner';
 
+// file with styling sharing across the several wrappers
+@import 'shared';
 
+// file with wrappers css styling
+@import 'wrappers_content'
