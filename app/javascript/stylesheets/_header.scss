@@ -2,14 +2,13 @@
 header
 -------------------------------*/
 .navbar-brand {
-  margin-right: none;
   font-size: 28px;
   font-weight: 700;
-  color: #283a5e; }
+  color: $secondary-color; }
 
 .main-navigation {
   padding: 20px 0px;
-  border-bottom: 1px solid #e8e8e8;
+  border-bottom: 1px solid $border-color;
   transition: all .7s linear; }
   .main-navigation .nav-link {
     font-size: 16px;
@@ -20,14 +19,13 @@ header
     letter-spacing: 0.5px; }
   .main-navigation .btn {
     background: transparent;
-    color: #2c2c2c;
-    border-color: #ee2d50; }
+    color: $black;
+    border-color: $primary-color; }
 
 .extra-nav {
-  margin-left: 10px;
   margin-right: 20px;
-  border-left: 1px solid #e8e8e8;
-  border-right: 1px solid #e8e8e8;
+  border-left: 1px solid $border-color;
+  border-right: 1px solid $border-color;
   padding-left: 20px;
   padding-right: 20px; }
   .extra-nav li a {
@@ -39,15 +37,15 @@ header
   border-radius: 50px; }
 
 .extra-nav li a i.fa-facebook-square {
-  color: #283A5E; }
+  color: $secondary-color; }
 
 .extra-nav li a i.fa-linkedin {
-  color: #EE2D50; }
+  color: $primary-color; }
 
 .extra-nav li a i.fa-instagram {
-  color: #283A5E; }
+  color: $secondary-color; }
 
 .extra-nav li a i.fa-youtube {
-  color: #EE2D50; }
+  color: $primary-color; }
 
 
