@@ -10,13 +10,13 @@ buttons
   transition: all .7s ease; }
 
 .btn-outline {
-  background: #ee2d50 !important;
-  color: #ffffff !important;
-  border-color: #ee2d50 !important;
+  background: #ee2d50;
+  color: #ffffff;
+  border-color: #ee2d50;
   &:hover {
-    background: #2c2c2c !important;
-    border-color: #2c2c2c !important;
-    color: #ffffff !important;
+    background: #2c2c2c;
+    border-color: #2c2c2c;
+    color: #ffffff;
   }
 }
 

@@ -1,8 +1,12 @@
 // import bootstrap
 @import '~bootstrap/scss/bootstrap';
 
-// file with bootstrap overwritten
+// file with sass variables
+
 @import 'variables';
+
+// file with responsive style specifications
+@import 'responsive';
 
 // file with header style
 @import 'header';
@@ -12,3 +16,5 @@
 
 // file with button styles
 @import 'buttons'
+
+
