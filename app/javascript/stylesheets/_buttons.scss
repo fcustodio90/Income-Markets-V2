@@ -20,3 +20,31 @@ buttons
   }
 }
 
+.btn-hero{
+  background: $primary-color;
+  color: $white;
+  border-color: $primary-color;
+  &:hover{
+    background: $black;
+      border-color:$black;
+      color:$white;
+  }
+}
+
+.btn-outline-hero{
+    &:hover{
+        border-color: $primary-color;
+        color: $primary-color;
+    }
+}
+
+.btn-hero-trans {
+  background: transparent;
+  color: $black;
+    border-color:$primary-color;
+  &:hover{
+     background: $primary-color;
+      border-color: $primary-color;
+      color: $white;
+  }
+}

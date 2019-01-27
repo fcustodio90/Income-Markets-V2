@@ -1,0 +1,46 @@
+.banner-padding{
+    padding: 240px 0px 160px 0px;
+}
+
+.btn-container{
+    margin-top: 20px;
+    a {
+        margin-right: 10px;
+    }
+}
+
+.main-banner-content{
+    h1{
+        font-size: 45px;
+        color: $secondary-color;
+    }
+    p{
+        font-size: 20px;
+        margin: 22px 0px 45px;
+        padding-right: 30px;
+        line-height: 38px;
+        color: $subtitle-color;
+    }
+    .subtitle{
+        color: $subtitle-color;
+    }
+}
+
+.subtitle{
+    text-transform: uppercase;
+    font-size: 13px;
+    color: $black;
+    font-weight: 400;
+    letter-spacing: 6px;
+    position: relative;
+    padding-top: 10px;
+}
+
+.subtitle:before{
+    position: absolute;
+    content:"";
+    top: 0px;
+    width: 30px;
+    height: 1px;
+    background: $primary-color;
+}
