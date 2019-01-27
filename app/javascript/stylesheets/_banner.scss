@@ -21,9 +21,6 @@
         line-height: 38px;
         color: $subtitle-color;
     }
-    .subtitle{
-        color: $subtitle-color;
-    }
 }
 
 .subtitle{
@@ -34,13 +31,12 @@
     letter-spacing: 6px;
     position: relative;
     padding-top: 10px;
-}
-
-.subtitle:before{
-    position: absolute;
-    content:"";
-    top: 0px;
-    width: 30px;
-    height: 1px;
-    background: $primary-color;
+    &:before {
+      position: absolute;
+      content:"";
+      top: 0px;
+      width: 30px;
+      height: 1px;
+      background: $primary-color;
+    }
 }
