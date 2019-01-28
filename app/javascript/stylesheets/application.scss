@@ -2,11 +2,7 @@
 @import '~bootstrap/scss/bootstrap';
 
 // file with sass variables
-
 @import 'variables';
-
-// file with responsive style specifications
-@import 'responsive';
 
 // file with header style
 @import 'header';
@@ -24,4 +20,7 @@
 @import 'shared';
 
 // file with wrappers css styling
-@import 'wrappers_content'
+@import 'wrappers_content';
+
+// file with responsive style specifications
+@import 'responsive';
