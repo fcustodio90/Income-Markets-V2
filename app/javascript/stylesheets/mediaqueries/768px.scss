@@ -1,0 +1,40 @@
+/* Small Devices, Tablets */
+@media (min-width : 768px) and (max-width: 991px) {
+  .navbar-toggler-icon {
+    border: 1px solid #eee;
+    line-height: 27px;
+  }
+
+  .main-navigation {
+    padding: 40px 20px 15px 20px;
+  }
+
+  .extra-nav{
+    display: none;
+  }
+
+  .banner-padding {
+    padding: 200px 0px 100px 0px;
+  }
+
+  #intro{
+      margin-top: 40px;
+  }
+
+  .intro-block{
+      border: 0px;
+      margin-bottom: 55px;
+  }
+
+  h1,.h1 {
+    font-size: 36px;
+  }
+
+  .main-banner-content p {
+    padding: 0px 20px;
+  }
+
+  .btn-container a{
+    margin-bottom: 15px;
+  }
+}
