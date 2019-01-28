@@ -2,19 +2,19 @@
 @media (min-width : 320px) and (max-width: 478px)  {
 
   .navbar-toggler-icon {
-      border: 1px solid #eee;
-      line-height: 27px;
+    border: 1px solid #eee;
+    line-height: 27px;
   }
   .main-navigation {
-      padding: 40px 20px 15px 20px;
+    padding: 40px 20px 15px 20px;
   }
 
   .banner-padding {
-      padding: 200px 0px 100px 0px;
+    padding: 200px 0px 100px 0px;
   }
 
   .extra-nav{
-      display: none;
+    display: none;
   }
 
   #intro{
@@ -30,16 +30,28 @@
   }
 
   .main-banner-content h1 {
-      font-size: 38px;
+    font-size: 38px;
   }
 
   .main-banner-content p {
-      font-size: 18px;
-      padding: 0px 20px;
+    font-size: 18px;
+    padding: 0px 20px;
   }
 
   .btn-container a{
-      margin-bottom: 15px;
+    margin-bottom: 15px;
+  }
+
+  .mb-55 {
+    margin-bottom: 55px;
+  }
+
+  .process-img-block {
+    margin-bottom: 55px;
+  }
+
+  .counter-stat {
+    padding: 30px 20px;
   }
 
 }
