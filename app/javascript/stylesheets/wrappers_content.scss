@@ -1,3 +1,6 @@
+// first wrapper - section intro
+// the one that has the 3 symbols with the scope, laptop etc
+
 #intro {
   background-color: $primary-color;
 }
@@ -38,4 +41,57 @@
 }
 .no-border{
   border: 0px;
+}
+
+// second wrapper - section processes
+// the one with users statistics, 1 / 2 / 3 catch phrases etc
+
+#section-services {
+  position: relative;
+  padding-bottom: 40px;
+}
+
+.process-img-block {
+  img {
+    border-radius: 5px;
+  }
+  .process-content {
+    font-weight: 400;
+    margin-top: 25px;
+
+    span {
+      font-weight: 700;
+      width: 40px;
+      height: 40px;
+      text-align: center;
+      background: $secondary-color;
+      color: $white;
+      float: left;
+      padding-top: 5px;
+      margin-right: 25px;
+      border-radius: 20px 20px 0px 20px;
+    }
+
+    p {
+      font-size: 18px;
+      color: $black;
+    }
+  }
+}
+
+.counter-stat {
+  padding: 55px 20px;
+  text-align: center;
+  margin: 65px 0px 30px 0px;
+  border: 1px solid $border-color;
+
+  .counter {
+    font-size: 59px;
+  }
+
+  p {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 0px;
+  }
 }
