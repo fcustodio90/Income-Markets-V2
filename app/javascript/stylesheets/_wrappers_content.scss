@@ -331,3 +331,32 @@
 .pricing-feature.basic li:nth-child(3n){
   text-decoration: line-through;
 }
+
+
+//section testimonials
+
+#section-testimonial {
+  .section-heading {
+    margin-bottom: 50px;
+  }
+}
+
+.test-content {
+  text-align: center;
+
+  p.lead {
+    font-weight: 400;
+  }
+
+  .test-img {
+    width: 70px;
+    height: 70px;
+    margin: 60px auto 30px;
+    background: $gray-lighter;
+    border-radius: 100%;
+
+    img {
+      max-width: 90px;
+    }
+  }
+}
