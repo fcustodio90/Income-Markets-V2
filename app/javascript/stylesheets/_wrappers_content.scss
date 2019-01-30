@@ -360,3 +360,57 @@
     }
   }
 }
+
+//section blog
+
+.single-blog {
+  img {
+    border-radius: 5px;
+  }
+
+  .learn-more {
+    color: $black;
+    &:hover {
+      color: $primary-color;
+    }
+  }
+}
+
+.blog-meta {
+  margin-top: 30px;
+  margin-bottom: 15px;
+
+  span {
+    font-size: 16px;
+  }
+
+  .post-date {
+    position: relative;
+
+    i {
+      margin-right: 10px;
+      color: $secondary-color;
+    }
+
+    &:before {
+      content: "/";
+      display: inline-block;
+      position: absolute;
+      top: -2px;
+      right: -15px;
+    }
+  }
+
+  .post-cat {
+    margin-left: 20px;
+  }
+}
+
+.blog-text {
+  margin-top: 10px;
+
+  a {
+    margin-bottom: 20px;
+    display: block;
+  }
+}
