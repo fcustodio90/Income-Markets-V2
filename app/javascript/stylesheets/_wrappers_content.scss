@@ -205,9 +205,129 @@
 .img_3-1{background-image:url('https://farm9.staticflickr.com/8429/7862595906_8f953fd25b.jpg');}
 .img_3-2{background-image:url('https://farm4.staticflickr.com/3766/12953056854_b8cdf14f21.jpg');}
 
-#sponsors {
+
+// sponsors section
+// with CTA for conferences
+
+#section-sponsors {
   position: relative;
+  padding-top: 0px;
   padding-bottom: 40px;
 }
 
 
+// section pricing
+// containing the 3 dif cards
+
+#section-pricing {
+  position: relative;
+
+  .section-heading {
+    position: relative;
+    z-index: 3;
+
+    h5 {
+      color: $white;
+    }
+
+    h2 {
+      color: $white;
+    }
+  }
+}
+
+
+#section-pricing:after {
+  position: absolute;
+  content: "";
+  left: 0px;
+  top: 0px;
+  background: url("https://images.unsplash.com/photo-1525334021141-c80f8e997f2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=80") no-repeat fixed 50% 50%;
+  background-size: cover;
+  width: 100%;
+  height: 560px;
+}
+
+#section-pricing:before {
+  position: absolute;
+  content: "";
+  left: 0px;
+  top: 0px;
+  background: rgba(40, 58, 94, 0.7);
+  background-size: cover;
+  width: 100%;
+  height: 560px;
+  z-index: 1;
+}
+
+.pricing-table {
+  text-align: center;
+  box-shadow: 0 10px 40px rgba(0,0,0,.05);
+  padding: 40px 0px 70px 0px;
+  border-radius: 5px;
+  border-top: 3px solid transparent;
+  transition: all .7s ease;
+  background: #fff;
+  z-index: 2;
+  position: relative;
+
+  .pricing-header {
+    margin-bottom: 30px;
+
+    h2 {
+      font-size: 80px;
+      margin-top: 15px;
+      letter-spacing: -3px;
+      position: relative;
+
+      small {
+        font-size: 18px;
+        color: $gray-light;
+        position: absolute;
+        top: 13px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin-left: 9px;
+      }
+    }
+
+    h4 {
+      font-size: 30px;
+      font-weight: 400;
+      text-transform: capitalize;
+    }
+
+    h6 {
+      text-transform: capitalize;
+      font-size: 13px;
+      font-weight: 400;
+    }
+  }
+
+  .pricing-feature {
+    margin: 40px 0px 50px;
+
+    li {
+      margin: 10px 0px;
+      color: $li-color;
+    }
+  }
+
+  &:hover {
+    border-top: 3px solid $primary-color;
+  }
+
+  &:hover a.btn-outline-hero {
+    background: $primary-color;
+    color: $white;
+    border-color: $primary-color;
+  }
+}
+
+.pricing-feature.basic li:nth-child(4n){
+  text-decoration: line-through;
+}
+
+.pricing-feature.basic li:nth-child(3n){
+  text-decoration: line-through;
+}
