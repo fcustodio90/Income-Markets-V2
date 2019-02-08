@@ -418,6 +418,7 @@
   }
 }
 
+// section CTA / promotions
 
 #section-cta {
   background: #FAFBFD;
@@ -443,4 +444,67 @@
   }
 }
 
+// section footer
 
+#section-footer {
+  padding: 90px 0px 60px 0px;
+  background: url("../../assets/images/map.png") no-repeat top right;
+}
+
+.subscribe-form {
+  margin-bottom: 70px;
+
+  h5 {
+    margin-bottom: 35px;
+    line-height: 28px;
+  }
+
+  .form-control {
+    height: 70px;
+    margin: 20px 0px;
+    position: relative;
+    padding-left: 20px;
+  }
+
+  a.btn {
+    position: absolute;
+    content: "";
+    top: 69px;
+    right: 20px;
+    border-radius: 5px;
+  }
+}
+
+.footer-widget {
+  h1 {
+    margin-bottom: 20px;
+  }
+  h4 {
+    margin-bottom: 25px;
+  }
+
+  ul li {
+    margin: 15px 0px;
+    text-transform: capitalize;
+    font-size: 16px;
+
+    a {
+      color: #777;
+      &:hover {
+        color: $primary-color;
+      }
+    }
+
+    i {
+      margin-right: 20px;
+      color: $secondary-color;
+      float: left;
+      margin-bottom: 20px;
+      margin-top: 5px;
+    }
+
+    p {
+      margin-bottom: 0px;
+    }
+  }
+}
